@@ -1,0 +1,9 @@
+[package]
+name = "leuvenshtein_mcu"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.72"
+
+
+[dependencies]
+tfhe = { version = "0.7.2", features = ["shortint", "x86_64-unix" ] }
